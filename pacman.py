@@ -50,8 +50,13 @@ class Pacman:
         
         # Wrap around screen edges
         if self.x < 0:
+<<<<<<< HEAD
             self.x = maze.width
         elif self.x > maze.width:
+=======
+            self.x = SCREEN_WIDTH
+        elif self.x > SCREEN_WIDTH:
+>>>>>>> e1f9903d7d85c8135338c00bf9c061eff053ba0b
             self.x = 0
             
         # Update current row and col based on current coordinates
